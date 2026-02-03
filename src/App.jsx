@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
           <div className='absolute w-px left-0 inset-y-0 h-full bg-neutral-300'></div>
           <div className='absolute w-px right-0 inset-y-0 h-full bg-neutral-300'></div>
             <Navbar></Navbar>
+            <Hero></Hero>
         </div>
     </div>
   );
